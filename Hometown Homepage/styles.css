@@ -1,0 +1,122 @@
+/**
+Palette: https://scrimba.com/links/hometown-palette
+RED: #E63946
+LIGHT: #F1FAEE
+AQUA: #A8DADC
+LIGHT BLUE: #457B9D
+DARK BLUE: #1D3557
+
+*/
+
+body {
+    margin: 0;
+    text-align: center;
+    background-color: #0077b6;
+    font-family: 'Barlow Semi Condensed', sans-serif;
+}
+
+#header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-image: url(images/Singapore.jpeg);
+    background-size: cover;
+    margin: auto auto 0 auto;
+}
+
+img {
+    width: 100px;
+}
+
+h1 {
+    background: #caf0f8;
+    color: black;
+    padding: 5px 10px;
+    border-radius: 8px;
+    margin: 700px auto 5px auto;
+    font-weight: bolder;
+}
+
+h2 {
+    background: #caf0f8;
+    color: black;
+    padding: 2px 4px;
+    border-radius: 8px;
+    margin-bottom: 30px;
+    font-weight: bolder;
+}
+
+#activities {
+    background: #ade8f4;
+    background-size: cover;
+    margin: 0px auto 0px auto;
+    display: flex;
+    flex-direction: column;
+
+}
+
+h3 {
+    text-align: center;
+    font-size: 30px;
+    margin: 30px auto 50px auto;
+    font-weight: bolder;
+}
+
+.container {
+    display: flex;
+    justify-content: space-evenly;
+    margin: 0px auto 30px 0px;
+}
+
+.photos {
+    width: 300px;
+    height: 300px;
+    border-radius: 5%;
+    box-shadow: 15px 15px #fdfcdc;
+    margin: 10px auto 10px auto;
+}
+
+.title {
+    background-color: transparent;
+    color: black;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 15px;
+    font-weight: bolder;
+}
+
+.description {
+    background-color: transparent;
+    color: black;
+    display: flex;
+    justify-content: center;
+    word-wrap: break-word;
+    margin: auto 30px 15px 30px; 
+}
+
+.containerYourGuide {
+    width: 900px;
+    height: 500px;
+    background-color: #caf0f8;
+    margin: 50px auto 30px auto;
+    display: flex;
+    align-items: center;
+    border-radius: 20px;
+    font-weight: bolder;
+    box-shadow: 15px 15px #fdfcdc;
+}
+
+.yourGuideIntro {
+margin-right: 35px;
+}
+
+.profilePhoto{
+    width: 450px;
+    height: 380px;
+    border-radius: 10px;
+    margin: 30px 20px 30px 20px;
+}
+
+#name {
+    font-weight: bolder;
+}
